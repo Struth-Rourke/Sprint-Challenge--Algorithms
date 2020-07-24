@@ -4,15 +4,15 @@
 
 a) O(n)
 
-The runtime is O(n) because as the loop checks if "a" is less than n^3, it would
+The runtime is O(n) because as the loop checks if "a" is less than n^3, it will
 take "n" times to iterate through the entire loop, which is just a linear function
-runtime. The runtime will also increase linearly as the input sixe of "n" increases,
-since there is a another, successive value in the list.
+runtime. This also means that as the size of "n" inscrease, the runtime increases
+linearly with each new addition.
 
 
 b) O(n log n)
 
-The runtime is O(n log n) because the outer loop is looping through "n", while
+The runtime is O(n log n) because the outer loop is looping through "n" while
 the inner loop is loop through log "n" since the data is split and compared.
 
 
